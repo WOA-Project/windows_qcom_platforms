@@ -1,0 +1,14 @@
+[Drivers]
+\components\ANYSOC\Hardware\HARDWARE.INPUT.FOCALTECH=""
+\components\ANYSOC\Hardware\HARDWARE.NFC.NXP=""
+\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_BRIDGE=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_COMPONENTS=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL=""
+\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL_EXTRAS=""
+\components\Devices\Lahaina=""
+\components\QC8350=""
+
+[Apps]
+\apps\IPA=""
