@@ -85,7 +85,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\Flash" Name="qccamflash8150.inf" ID="qccamflash8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\FrontSensor" Name="qccamfrontsensor8150.inf" ID="qccamfrontsensor8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\ISP" Name="qccamisp8150.inf" ID="qccamisp8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege_ffu8150.inf" ID="qccamjpege_ffu8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\JPEGEncoder" Name="qccamjpege8150.inf" ID="qccamjpege8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\MIPICSI" Name="qccammipicsi8150.inf" ID="qccammipicsi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\Platform" Name="qccamplatform8150.inf" ID="qccamplatform8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Camera\RearSensor" Name="qccamrearsensor8150.inf" ID="qccamrearsensor8150"/>
@@ -104,7 +104,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\MBB" Name="qcmbb.wp8150.inf" ID="qcmbb.wp8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ModemBridge" Name="qcmbrg8150.inf" ID="qcmbrg8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteAT" Name="qcremoteat8150.inf" ID="qcremoteat8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteFS" Name="qcremotefs8150.inf" ID="qcremotefs8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RemoteFS\ReadOnlyFS1FS2" Name="qcremotefs8150.inf" ID="qcremotefs8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RevRmnet" Name="qcrevrmnet8150.inf" ID="qcrevrmnet8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge8150.inf" ID="qcrmnetbridge8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\Cellular\ThermalMDM" Name="qcthermalmdm.inf" ID="qcthermalmdm"/>
@@ -137,7 +137,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\GLINK" Name="QcPmicGlink8150.inf" ID="QcPmicGlink8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8150.inf" ID="qcpmicgpio8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PMIC\TypeCController" Name="qcpmictcc8150.inf" ID="qcpmictcc8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PowerManagement" Name="qcpep.wp8150.inf" ID="qcpep.wp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\PowerManagement" Name="qcpep.wd8150.inf" ID="qcpep.wd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\Provisioning" Name="QcSOCPartition.inf" ID="QcSOCPartition"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8150.inf" ID="qccdi8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen8150.inf" ID="qcrpen8150"/>
@@ -181,7 +181,6 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\HexagonLoader" Name="qcpilEXT8150.inf" ID="qcpilEXT8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PowerManagement" Name="qcpepextension8150.inf" ID="qcpepextension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Sensors\MTP" Name="qcSensorsConfig8150.inf" ID="qcSensorsConfig8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Sensors\QRD" Name="qcSensorsConfigQrd8150.inf" ID="qcSensorsConfigQrd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Subsystems\Audio" Name="qcsubsys_ext_adsp8150.inf" ID="qcsubsys_ext_adsp8150"/>
