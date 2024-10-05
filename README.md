@@ -1,12 +1,18 @@
+# Windows Driver pack for Qualcomm Reference platforms
 
-# Windows Driver pack for Surface Duo platforms
-
-![Surface Duo Dual Screen Windows](https://user-images.githubusercontent.com/3755345/197420866-d3bb0534-c848-4cc2-a242-04dae48b0f6e.png)
-
-This repository contains driver binary files for Surface Duo 1 and Surface Duo 2.
-All driver binary files form a board support package to be used on Surface Duo 1 and Surface Duo 2 devices to provide hardware support for the Windows operating system.
+This repository contains driver binary files for various Qualcomm Reference Platforms.
+All driver binary files form a board support package to provide hardware support for the Windows operating system.
 
 These driver files are not perfect, typos may exist, feel free to file an issue on GitHub in case you found any.
+
+Currently, we are supporting the following devices actively:
+
+- Mobile Testing Platform for the Snapdragon 855 (MTP8150)
+- Mobile Testing Platform for the Snapdragon 855 with Snapdragon X50 5G Modem (MTP50)
+- Mobile Testing Platform for the Snapdragon 865 (MTP8250)
+- Mobile Testing Platform for the Snapdragon 888 (MTP8350)
+- Qualcomm Reference Design Device for the Snapdragon 855 (QRD8150)
+- Qualcomm Reference Design Device for the Snapdragon 888 (QRD8350)
 
 ## Resources
 
@@ -21,7 +27,7 @@ Please see [LICENSE](LICENSE.md)
 For preserving charset encoding, please checkout with using:
 
 ```
-git clone -c core.autocrlf=false https://github.com/WOA-Project/SurfaceDuo-Drivers
+git clone -c core.autocrlf=false https://github.com/WOA-Project/windows_qcom_platforms
 ```
 
 ---
