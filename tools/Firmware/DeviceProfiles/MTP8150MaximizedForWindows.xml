@@ -2,7 +2,8 @@
 <DeviceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SupplementaryBCDCommands />
   <PlatformIDs>
-    <string>Microsoft Corporation.Surface.MTP.SM8150</string>
+    <string>Qualcomm.SDM855.MTP.*</string>
+    <string>Qualcomm.SDA855.MTP.*</string>
   </PlatformIDs>
   <FFUFileName>QCOM_MTP_8150_MaximizedForWindows.ffu</FFUFileName>
   <DriverDefinitionPath>\definitions\Desktop\ARM64\Internal\mtp855.xml</DriverDefinitionPath>
