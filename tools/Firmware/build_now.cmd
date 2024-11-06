@@ -18,20 +18,16 @@ REM Generate Base Virtual Disk file
 REM Generate FFU Files
 
 REM MTP8150
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP8150MaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\MTP8150_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP8150MaximizedForWindows.xml -t "cmd.exe /c sign.cmd"
 
 REM MTP50
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP50MaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\MTP50_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP50MaximizedForWindows.xml -t "cmd.exe /c sign.cmd"
 
 REM MTP8350
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP8350MaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\MTP8350_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\MTP8350MaximizedForWindows.xml -t "cmd.exe /c sign.cmd"
 
 REM QRD8150
-%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\QRD8150MaximizedForWindows.xml
-call resign_ffu.cmd "%CD%\FFUs\QRD8150_MaximizedForWindows.ffu"
+%PROCESSOR_ARCHITECTURE%\FirmwareGen.exe -w %DriveLetter%: -i %WINDOWS_ISO_IMAGE_INDEX% -v %WINDOWS_ISO_IMAGE_VERSION% -o "%CD%\FFUs" -d "%CD%\..\.." -p %CD%\DeviceProfiles\QRD8150MaximizedForWindows.xml -t "cmd.exe /c sign.cmd"
 
 REM Unmount ISO image
 powershell -command "Dismount-DiskImage -ImagePath '%WINDOWS_ISO_IMAGE%'"
