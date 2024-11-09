@@ -1,8 +1,8 @@
 <!-- @@BEGIN_SDKSPLIT
   
-  MTP50 BSP Definition file v2411.1
+  HDK855 BSP Definition file v2411.1
   
-  This is the file that dictates which drivers to install onto MTP50 devices
+  This is the file that dictates which drivers to install onto MTP855 devices
   It also instructs which apps should be installed onto the target device.
   
   !!!WARNING!!!
