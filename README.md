@@ -7,12 +7,14 @@ These driver files are not perfect, typos may exist, feel free to file an issue 
 
 Currently, we are supporting the following devices actively:
 
-- Mobile Testing Platform for the Snapdragon 855 (MTP8150)
-- Mobile Testing Platform for the Snapdragon 855 with Snapdragon X50 5G Modem (MTP50)
-- Mobile Testing Platform for the Snapdragon 865 (MTP8250)
-- Mobile Testing Platform for the Snapdragon 888 (MTP8350)
-- Qualcomm Reference Design Device for the Snapdragon 855 (QRD8150)
-- Qualcomm Reference Design Device for the Snapdragon 888 (QRD8350)
+- Mobile Testing Platform for the Snapdragon 855 (MTP855/MTP8150)
+- Mobile Testing Platform for the Snapdragon 855 with Snapdragon X50 5G Mobile Modem (MTP8150 w/ SDX50M/MTP50)
+- Mobile Testing Platform for the Snapdragon 865 (MTP865/MTP8250)
+- Mobile Testing Platform for the Snapdragon 888 (MTP888/MTP8350)
+- Hand Held Gaming device for the Snapdragon G3x Gen 1 (HHG888/HHG8350)
+- Hardware Development Kit for the Snapdragon 855 (HDK855/HDK8150)
+- Qualcomm Reference Design Device for the Snapdragon 855 (QRD855/QRD8150)
+- Qualcomm Reference Design Device for the Snapdragon 888 (QRD888/QRD8350)
 
 ## Resources
 
