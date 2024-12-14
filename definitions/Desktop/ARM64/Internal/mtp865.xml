@@ -63,7 +63,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\AudioCoreExt" Name="AudioCoreExt.inf" ID="AudioCoreExt"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\EMB" Name="emb.inf" ID="emb"/>
             <DriverPackageFile Path="$(mspackageroot)\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.MOBILE_RIL\WindowsPhone" Name="WindowsPhone.inf" ID="WindowsPhone"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Kona\Setup\BypassNRO\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Kona\Setup\BypassNRO" Name="BypassNRO.inf" ID="BypassNRO"/>
             <DriverPackageFile Path="$(mspackageroot)\components\Devices\Kona\Setup\DesktopSetup" Name="desktopsetup.inf" ID="desktopsetup"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\Audio\Orientation" Name="AudioService8250.inf" ID="AudioService8250"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\Battery\BatteryCurrentLimiter" Name="qcfgbcl8250.inf" ID="qcfgbcl8250"/>

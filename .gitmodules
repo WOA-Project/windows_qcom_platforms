@@ -16,3 +16,12 @@
 [submodule "components/QC8650"]
 	path = components/QC8650
 	url = https://github.com/WOA-Project/windows_silicon_qcom_lanai
+[submodule "components/QC670"]
+	path = components/QC670
+	url = https://github.com/WOA-Project/windows_silicon_qcom_warlock
+[submodule "components/QC7125"]
+	path = components/QC7125
+	url = https://github.com/WOA-Project/windows_silicon_qcom_rennell
+[submodule "components/QC7325"]
+	path = components/QC7325
+	url = https://github.com/WOA-Project/windows_silicon_qcom_kodiak
