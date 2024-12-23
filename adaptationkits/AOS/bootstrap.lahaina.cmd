@@ -1,17 +1,17 @@
 @echo off
 
-if not exist .\FMFiles\arm64\ModernPC\ (
-  echo ERROR: Feature Manifests not found in .\FMFiles\arm64\ModernPC, recheck your copy of the 20279 WSK and try again.
+if not exist .\FMFiles\arm64\AndromedaOS\ (
+  echo ERROR: Feature Manifests not found in .\FMFiles\arm64\AndromedaOS, recheck your copy of the WSK and try again.
   exit /b
 )
 
 if not exist .\MSPackages\appx\ (
-  echo ERROR: APPX packages not found in .\MSPackages\appx, recheck your copy of the 20279 WSK and try again.
+  echo ERROR: APPX packages not found in .\MSPackages\appx, recheck your copy of the WSK and try again.
   exit /b
 )
 
 if not exist .\MSPackages\Retail\ARM64\fre\ (
-  echo ERROR: CBS packages not found in .\MSPackages\Retail\ARM64\fre, recheck your copy of the 20279 WSK and try again.
+  echo ERROR: CBS packages not found in .\MSPackages\Retail\ARM64\fre, recheck your copy of the WSK and try again.
   exit /b
 )
 
