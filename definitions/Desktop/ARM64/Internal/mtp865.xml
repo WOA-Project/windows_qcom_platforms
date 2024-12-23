@@ -106,6 +106,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr.inf" ID="qcpdsr"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\USB\TypeCPortManager" Name="qcusbctcpm8250.inf" ID="qcusbctcpm8250"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\USB\UCSI" Name="qcusbcucsi8250.inf" ID="qcusbcucsi8250"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8250.inf" ID="qcusbfndefaults8250"/>
         </BaseDriverPackages>
     </Drivers>
 </FeatureManifest>

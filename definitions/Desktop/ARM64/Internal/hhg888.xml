@@ -220,6 +220,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8350.inf" ID="QcIMSDataDaemon_mbb_ext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8350.inf" ID="QcIMSQMIDaemon_mbb_ext8350"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Services\RCS" Name="QcRCSPresSvc_mbb_ext8350.inf" ID="QcRCSPresSvc_mbb_ext8350"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8350\Settings\USBFn\Interfaces" Name="qcusbfndefaults8350.inf" ID="qcusbfndefaults8350"/>
         </BaseDriverPackages>
     </Drivers>
 </FeatureManifest>
