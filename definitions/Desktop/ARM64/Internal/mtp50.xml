@@ -165,8 +165,10 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\VibrationMotor" Name="qchwnhaptics8150.inf" ID="qchwnhaptics8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Drivers\WLAN" Name="qcwlan8150.inf" ID="qcwlan8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ACDB\MTP" Name="qcacsp_mtp8150.inf" ID="qcacsp_mtp8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ACDB\HDK" Name="qcacsp_hdk8150.inf" ID="qcacsp_hdk8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ACDB\QRD" Name="qcacsp_qrd8150.inf" ID="qcacsp_qrd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\AudMiniport\MTP" Name="qcaudminiportMTP_Extension8150.inf" ID="qcaudminiportMTP_Extension8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\AudMiniport\HDK" Name="qcaudminiportHDK_Extension8150.inf" ID="qcaudminiportHDK_Extension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\AudMiniport\QRD" Name="qcaudminiportQRD_Extension8150.inf" ID="qcaudminiportQRD_Extension8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\Device" Name="qcauddev_ext8150.inf" ID="qcauddev_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Audio\ListenSoundModel\Calibration" Name="QCListenSM_swc_ext8150.inf" ID="QCListenSM_swc_ext8150"/>
@@ -182,6 +184,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\Apps" Name="qcpmicappsext8150.inf" ID="qcpmicappsext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\PMIC\BatteryCurrentLimiter" Name="qcfgbclext8150.inf" ID="qcfgbclext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Sensors\MTP" Name="qcSensorsConfig8150.inf" ID="qcSensorsConfig8150"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Sensors\HDK" Name="qcSensorsConfigHdk8150.inf" ID="qcSensorsConfigHdk8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Sensors\QRD" Name="qcSensorsConfigQrd8150.inf" ID="qcSensorsConfigQrd8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Subsystems\Audio" Name="qcsubsys_ext_adsp8150.inf" ID="qcsubsys_ext_adsp8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Extensions\Subsystems\Compute" Name="qcsubsys_ext_cdsp8150.inf" ID="qcsubsys_ext_cdsp8150"/>
@@ -197,7 +200,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSData" Name="QcIMSDataDaemon_mbb_ext8150.inf" ID="QcIMSDataDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\Cellular\IMSQMI" Name="QcIMSQMIDaemon_mbb_ext8150.inf" ID="QcIMSQMIDaemon_mbb_ext8150"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Services\RCS" Name="QcRCSPresSvc_mbb_ext8150.inf" ID="QcRCSPresSvc_mbb_ext8150"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8150.inf" ID="qcusbfndefaults"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8150\Settings\USBFn\Interfaces" Name="qcusbfndefaults8150.inf" ID="qcusbfndefaults8150"/>
         </BaseDriverPackages>
     </Drivers>
 </FeatureManifest>
