@@ -28,3 +28,6 @@
 [submodule "components/QC8998"]
 	path = components/QC8998
 	url = https://github.com/WOA-Project/windows_silicon_qcom_nazgul
+[submodule "components/QC8996"]
+	path = components/QC8996
+	url = https://github.com/WOA-Project/windows_silicon_qcom_istari
