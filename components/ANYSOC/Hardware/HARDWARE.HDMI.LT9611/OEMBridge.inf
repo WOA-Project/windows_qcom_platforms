@@ -1,0 +1,56 @@
+;
+; OEMBridge.inf
+;
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %ManufacturerName%
+CatalogFile = OEMBridge.cat
+DriverVer = 01/30/2025,1.45.6.408
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+OEMBridge.sys  = 1,,
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName% = Standard,NTARM64.10.0...16299
+
+[Standard.NTARM64.10.0...16299]
+%OEMBridge.DeviceDesc% = OEMBridge_Device, ACPI\LNTI9611
+
+[OEMBridge_Device.NT]
+CopyFiles = File_Copy
+
+[File_Copy]
+OEMBridge.sys
+
+;-------------- Service installation
+[OEMBridge_Device.NT.Services]
+AddService = OEMBridge,%SPSVCINST_ASSOCSERVICE%, OEMBridge_Service_Inst
+
+; -------------- OEMBridge driver install sections
+[OEMBridge_Service_Inst]
+DisplayName    = %OEMBridge.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\OEMBridge.sys
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName     = "DuoWoA authors"
+DiskName             = "OEMBridge Installation Disk"
+OEMBridge.DeviceDesc = "Lontium MIPI(R) DSI/CSI to HDMI1.4 Bridge (LT9611)"
+OEMBridge.SVCDESC    = "OEMBridge Service"
