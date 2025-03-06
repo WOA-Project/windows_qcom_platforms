@@ -101,6 +101,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\LteCoexistanceManager" Name="QcLteCoexMgr8998.inf" ID="QcLteCoexMgr8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB_QBI" Name="qcmbb8998.inf" ID="qcmbb8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB" Name="qcmbb.wp8998.inf" ID="qcmbb.wp8998"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBBUIO" Name="qcmbbuio8998.inf" ID="qcmbbuio8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\ModemBridge" Name="qcmbrg8998.inf" ID="qcmbrg8998"/>
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat.wp8998.inf" ID="qcremoteat.wp8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat8998.inf" ID="qcremoteat8998"/>
@@ -164,8 +165,8 @@ __________________________________DuoWoA authors License Terms End Here_________
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\ACDB\QRD" Name="qcacsp_qrd8998.inf" ID="qcacsp_qrd8998"/>-->
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\CLS\qcaudminiportCLS_WD_Extension8998" Name="qcaudminiportCLS_WD_Extension8998.inf" ID="qcaudminiportCLS_WD_Extension8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\MTP\qcaudminiportMTP_WD_Extension8998" Name="qcaudminiportMTP_WD_Extension8998.inf" ID="qcaudminiportMTP_WD_Extension8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\MTP\qcaudminiportMTP_WP_Extension8998" Name="qcaudminiportMTP_WP_Extension8998.inf" ID="qcaudminiportMTP_WP_Extension8998"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\QRD\qcaudminiportQRD_WD_Extension8998" Name="qcaudminiportQRD_WD_Extension8998.inf" ID="qcaudminiportQRD_WD_Extension8998"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\MTP\qcaudminiportMTP_WP_Extension8998" Name="qcaudminiportMTP_WP_Extension8998.inf" ID="qcaudminiportMTP_WP_Extension8998"/>
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\QRD\qcaudminiportQRD_WD_Extension8998" Name="qcaudminiportQRD_WD_Extension8998.inf" ID="qcaudminiportQRD_WD_Extension8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\AudMiniport\QRD\qcaudminiportQRD_WP_Extension8998" Name="qcaudminiportQRD_WP_Extension8998.inf" ID="qcaudminiportQRD_WP_Extension8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\Device" Name="qcauddev_ext8998.inf" ID="qcauddev_ext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\ListenSoundModel" Name="QCListenSoundModel8998.inf" ID="QCListenSoundModel8998"/>
