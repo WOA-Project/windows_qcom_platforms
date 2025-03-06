@@ -144,7 +144,7 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\UART" Name="qcuart8998.inf" ID="qcuart8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\VoltageCurrentMonitoring\CoreAnalogDigitalConverter" Name="qcadc8998.inf" ID="qcadc8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\VoltageCurrentMonitoring\EPMAnalogDigitalConverter" Name="qcepmadc8998.inf" ID="qcepmadc8998"/>
-            <<!--DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8998.inf" ID="qcsubsys8998"/>-->
+            <!--DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Subsystems\CombinedSubsystem" Name="qcsubsys8998.inf" ID="qcsubsys8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Subsystems\CombinedSubsystemNoModem" Name="qcsubsys8998.inf" ID="qcsubsys8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Subsystems\ProtectionDomainServiceRegistry" Name="qcpdsr8998.inf" ID="qcpdsr8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Touch\ImproveTouch" Name="qcImproveTouch8998.inf" ID="qcImproveTouch8998"/>
