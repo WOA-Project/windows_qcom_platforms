@@ -103,13 +103,11 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB" Name="qcmbb.wp8998.inf" ID="qcmbb.wp8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBBUIO" Name="qcmbbuio8998.inf" ID="qcmbbuio8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\ModemBridge" Name="qcmbrg8998.inf" ID="qcmbrg8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat.wp8998.inf" ID="qcremoteat.wp8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat8998.inf" ID="qcremoteat8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteFS" Name="qcremotefs8998.inf" ID="qcremotefs8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RevRmnet" Name="qcrevrmnet8998.inf" ID="qcrevrmnet8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RmNetBridge" Name="qcrmnetbridge8998.inf" ID="qcrmnetbridge8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\GPS" Name="qcgnss8998.inf" ID="qcgnss8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Graphics\DXKM" Name="qcdx_ffu8998.inf" ID="qcdx_ffu8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Graphics\DXKM" Name="qcdx8998.inf" ID="qcdx8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\HALs\Timer" Name="HalExtQCTimer8998.inf" ID="HalExtQCTimer8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\HALs\WatchDog" Name="HalExtQCWdogTimer8998.inf" ID="HalExtQCWdogTimer8998"/>
@@ -129,7 +127,6 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\PMIC\GPIO" Name="qcpmicgpio8998.inf" ID="qcpmicgpio8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\PMIC\TypeCController" Name="qcpmictcc8998.inf" ID="qcpmictcc8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\PowerManagement" Name="qcpep.wd8998.inf" ID="qcpep.wd8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\PowerManagement" Name="qcpep.wp8998.inf" ID="qcpep.wp8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\ResetPower\CrashDumpInjector" Name="qccdi8998.inf" ID="qccdi8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\ResetPower\ResetProtectionEnabler" Name="qcrpen8998.inf" ID="qcrpen8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\SMMU" Name="qcsmmu8998.inf" ID="qcsmmu8998"/>
@@ -159,7 +156,6 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\VibrationMotor" Name="qchwnhaptics8998.inf" ID="qchwnhaptics8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\WLAN\Sparrow" Name="qca11ad.inf" ID="qca11ad"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\WLAN\WCNSS" Name="qcwlan_wd8998.inf" ID="qcwlan_wd8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\WLAN\WCNSS" Name="qcwlan_wp8998.inf" ID="qcwlan_wp8998"/>-->
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\ACDB\CLS" Name="qcacsp_cls8998.inf" ID="qcacsp_cls8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\ACDB\MTP" Name="qcacsp_mtp8998.inf" ID="qcacsp_mtp8998"/>
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Audio\ACDB\QRD" Name="qcacsp_qrd8998.inf" ID="qcacsp_qrd8998"/>-->
@@ -176,35 +172,40 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Camera\CLS\RearSensor" Name="qccamrearsensor_imx214_13M_bayer_extension8998.inf" ID="qccamrearsensor_imx214_13M_bayer_extension8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Cellular\AMSSComponentExtension" Name="qcamssextension8998.inf" ID="qcamssextension8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Cellular\EMBComponentExtension" Name="qcwmrilextension8998.inf" ID="qcwmrilextension8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Cellular\RemoteAT" Name="qcremoteatextension8998.inf" ID="qcremoteatextension8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Cellular\RILComponentExtension" Name="qcWMRil_mbb_ext8998.inf" ID="qcWMRil_mbb_ext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\FMRadio" Name="qcfmtransportextension8998.inf" ID="qcfmtransportextension8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\HexagonLoader" Name="qcpilEXT8998.inf" ID="qcpilEXT8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\PMIC\Apps" Name="qcpmicappsext8998.inf" ID="qcpmicappsext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\PMIC\TypeCController" Name="qcpmictccext8998.inf" ID="qcpmictccext8998"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\PowerManagement" Name="qcpepextension8998.inf" ID="qcpepextension8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\SAR" Name="qsarconfig8998.inf" ID="qsarconfig8998"/>
             <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Sensors\CLS" Name="qcSensorsChimera8998.inf" ID="qcSensorsChimera8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Sensors\MTP" Name="qcSensorsConfig8998.inf" ID="qcSensorsConfig8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Subsystems\ModemConfig" Name="mcfg_subsys_ext8998.inf" ID="mcfg_subsys_ext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\USB\DualRoleExtension" Name="qcursext.inf" ID="qcursext"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\WLAN\WCNSS" Name="qcwlan_wdextdrv8998.inf" ID="qcwlan_wdextdrv8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\WLAN\WifiNotifier" Name="qcwlanextension8998.inf" ID="qcwlanextension8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Libraries\Cellular\IMS" Name="qcims8998.inf" ID="qcims8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Libraries\Cellular\RadioInterfaceLayer" Name="qcWMRil8998.inf" ID="qcWMRil8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Libraries\Cellular\VideoOverLTESink" Name="qcimssink_mbb_ext8998.inf" ID="qcimssink_mbb_ext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Libraries\Cellular\VideoOverLTESource" Name="qcimssrc_mbb_ext8998.inf" ID="qcimssrc_mbb_ext8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Libraries\FMRadio" Name="qcfmminiport.inf" ID="qcfmminiport"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\ProvisioningPkgs" Name="qcppmsettings8998.inf" ID="qcppmsettings8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\IMS" Name="qcimsRTPSvc8998.inf" ID="qcimsRTPSvc8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\IMS" Name="qcimsVTWNIsvc8998.inf" ID="qcimsVTWNIsvc8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\IMSData" Name="qcImsDataDaemon8998.inf" ID="qcImsDataDaemon8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\IMSQMI" Name="qcImsQMIDaemon8998.inf" ID="qcImsQMIDaemon8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\RemoteAT" Name="qcremoteatsrvc8998.inf" ID="qcremoteatsrvc8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\GPS" Name="qcgnsssvc8998.inf" ID="qcgnsssvc8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\RCS" Name="QcRCSPresSvc_mbb_ext8998.inf" ID="QcRCSPresSvc_mbb_ext8998"/>
-            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\WLAN" Name="qcwifinotifiersrvc8998.inf" ID="qcwifinotifiersrvc8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Settings\USBFn\Interfaces" Name="qcusbfndefaults8998.inf" ID="qcusbfndefaults8998"/>
+            <!-- WCOS Only -->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat.wp8998.inf" ID="qcremoteat.wp8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Graphics\DXKM" Name="qcdx_ffu8998.inf" ID="qcdx_ffu8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\SOC\PowerManagement" Name="qcpep.wp8998.inf" ID="qcpep.wp8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\WLAN\WCNSS" Name="qcwlan_wp8998.inf" ID="qcwlan_wp8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\Cellular\RemoteAT" Name="qcremoteatextension8998.inf" ID="qcremoteatextension8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\PowerManagement" Name="qcpepextension8998.inf" ID="qcpepextension8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Extensions\WLAN\WifiNotifier" Name="qcwlanextension8998.inf" ID="qcwlanextension8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\ProvisioningPkgs" Name="qcppmsettings8998.inf" ID="qcppmsettings8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\Cellular\RemoteAT" Name="qcremoteatsrvc8998.inf" ID="qcremoteatsrvc8998"/>-->
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Services\WLAN" Name="qcwifinotifiersrvc8998.inf" ID="qcwifinotifiersrvc8998"/>-->
         </BaseDriverPackages>
     </Drivers>
 </FeatureManifest>
