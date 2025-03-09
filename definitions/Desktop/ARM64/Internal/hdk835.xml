@@ -101,8 +101,8 @@ __________________________________DuoWoA authors License Terms End Here_________
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\IPCRouter" Name="qcipcrouter_WP8998.inf" ID="qcipcrouter_WP8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\LinkLocal" Name="qclinklocal.wp8998.inf" ID="qclinklocal.wp8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\LteCoexistanceManager" Name="QcLteCoexMgr8998.inf" ID="QcLteCoexMgr8998"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB_QBI" Name="qcmbb8998.inf" ID="qcmbb8998"/>
-            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB" Name="qcmbb.wp8998.inf" ID="qcmbb.wp8998"/>
+            <!--<DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB_QBI" Name="qcmbb8998.inf" ID="qcmbb8998"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBB" Name="qcmbb.wp8998.inf" ID="qcmbb.wp8998"/>-->
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\MBBUIO" Name="qcmbbuio8998.inf" ID="qcmbbuio8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\ModemBridge" Name="qcmbrg8998.inf" ID="qcmbrg8998"/>
             <DriverPackageFile Path="$(mspackageroot)\components\QC8998\Drivers\Cellular\RemoteAT" Name="qcremoteat8998.inf" ID="qcremoteat8998"/>
